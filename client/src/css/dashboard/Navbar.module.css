@@ -1,0 +1,209 @@
+.navgation {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border-radius: 22px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.logoSection {
+  order: 1;
+  width: 25%;
+  position: relative;
+}
+
+.logodiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  order: 1;
+  width: 25%;
+  background-image: url(../../assets/dashboard/img/newLogo.png);
+  height: 50px;
+  margin-left: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logoname {
+  order: 2;
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.logonameStyle {
+  justify-content: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.dateSection {
+  order: 2;
+  width: 50%;
+  position: relative;
+}
+
+.profileSection {
+  order: 3;
+  width: 25%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.date {
+  /* background: #b89068; */
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+}
+
+.dateicon {
+  order: 1;
+  margin-left: 15px;
+  padding: 5px;
+  display: flex;
+}
+
+.dateicon2 {
+  order: 3;
+  margin-left: 15px;
+  padding: 5px;
+  display: flex;
+}
+
+.dateIconStyle {
+  font-size: 29px;
+  color: #000000;
+}
+
+.dateText {
+  order: 2;
+  margin-left: 10px;
+}
+
+.dateTitle {
+  /* background: #b89068; */
+  border: none;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.dateText > ::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 25px;
+  color: #f7f7f7;
+}
+
+.profileIcon {
+  align-items: center;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.accounticon {
+  color: #542b14;
+  font-size: 44px;
+  display: flex;
+}
+
+.logout {
+  height: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.alignSection {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.logoutButton {
+  width: 92px;
+  height: 33px;
+  /* background: #b89068; */
+  background: #ffffff;
+  border-radius: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  border: 1px solid #b89068;
+  color: #b89068;
+  cursor: pointer;
+}
+
+.linkStyle {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+/* 
+@media screen and (max-width: 903px) {
+  .dateTitle {
+    border: none;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 25px;
+    color: #000000;
+  }
+} */
+
+@media screen and (max-width: 833px) {
+  .logonameStyle {
+    justify-content: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .dateTitle {
+    /* background: #b89068; */
+    border: none;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+  }
+
+  .accounticon {
+    color: #542b14;
+    font-size: 42px;
+    display: flex;
+  }
+
+  .logoutButton {
+    width: 88px;
+    height: 33px;
+    /* background: #b89068; */
+    background: #ffffff;
+    border-radius: 22px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    border: 1px solid #b89068;
+    color: #b89068;
+    cursor: pointer;
+  }
+}
