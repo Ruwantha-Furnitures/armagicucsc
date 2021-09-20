@@ -44,6 +44,7 @@
   color: #f7f7f7;
   border-radius: 22px;
   cursor: pointer;
+  box-sizing: content-box;
 }
 
 .lineIcon {
@@ -63,6 +64,7 @@
   color: #f7f7f7;
   border-radius: 22px;
   cursor: pointer;
+  box-sizing: content-box;
 }
 
 .lineSection:hover > .lineIcon > .iconWidth {

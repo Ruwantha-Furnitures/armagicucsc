@@ -514,6 +514,7 @@ button[disabled] {
   width: 16%;
   padding-left: 31px;
   display: inline-block;
+  box-sizing: content-box;
 }
 
 .form {

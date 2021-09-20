@@ -29,7 +29,7 @@ a:hover {
   text-decoration: none;
 }
 
-input[type="button"] {
+button {
   outline: none;
 }
 /* 
