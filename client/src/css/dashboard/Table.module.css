@@ -219,6 +219,14 @@ input[type="search"]:-webkit-autofill:active {
   display: inline-flex;
 }
 
+.linkStyleAddHeader:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.86);
+  font-weight: 800;
+  align-items: center;
+  display: inline-flex;
+}
+
 .linkStyleAdd {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.86);
@@ -236,6 +244,7 @@ input[type="search"]:-webkit-autofill:active {
 
 .addIconStyle {
   margin-left: 13px;
+  color: rgba(0, 0, 0, 0.86);
 }
 
 .header {

@@ -161,7 +161,10 @@ function ProductsTable() {
                   </th>
                   <th>
                     <div className={TableStyle.header}>
-                      <Link to="" className={TableStyle.linkStyleAddHeader}>
+                      <Link
+                        to="/dashboard/product/addProductType"
+                        className={TableStyle.linkStyleAddHeader}
+                      >
                         Type
                       </Link>
                       {user === "Admin" && (
@@ -182,7 +185,10 @@ function ProductsTable() {
                   </th>
                   <th>
                     <div className={TableStyle.header}>
-                      <Link to="" className={TableStyle.linkStyleAddHeader}>
+                      <Link
+                        to="/dashboard/product/addProductCategory"
+                        className={TableStyle.linkStyleAddHeader}
+                      >
                         Category
                       </Link>
                       {user === "Admin" && (

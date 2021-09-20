@@ -23,13 +23,19 @@ h1 {
 
 a {
   text-decoration: none;
+  color: none;
 }
 
 a:hover {
   text-decoration: none;
+  color: none;
 }
 
 button {
+  outline: none;
+}
+
+button:focus {
   outline: none;
 }
 /* 
